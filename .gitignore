@@ -1,0 +1,22 @@
+# secrets
+.env
+
+# python
+__pycache__/
+*.pyc
+venv/
+.venv/
+.ipynb_checkpoints/
+
+# large dataset & model weights (GitHub 100 MB limit)
+dataset_sroie/
+*.bin
+*.zip
+
+# old database copies
+extracted_db/*_backup.db
+extracted_db/*_old.db
+
+# scratch files
+test.py
+test.ipynb
